@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.heading {
+  width: 100vw;
+  height: 5.5rem;
+  background-color: rgb(218, 172, 22);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin: 0rem 5rem;
+}
+.notes {
+  color: rgb(219, 70, 70);
+}
+.hText {
+  font-size: 1.9rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.contentBox {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+.btn {
+  border: 0px;
+  background-color: rgb(12, 109, 189);
+}
+.addNote {
+  text-align: end;
+  margin-right: 2rem;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: rgb(214, 201, 14);
+}

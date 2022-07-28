@@ -6,12 +6,13 @@
 
 .container {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh;
+  position: fixed; */
 }
 
 .heading {
   width: 100vw;
-  height: 5.5rem;
+  height: 4.5rem;
   background-color: rgb(218, 172, 22);
   display: grid;
   grid-template-columns: 1fr 3fr;
@@ -37,14 +38,83 @@
 }
 .btn {
   border: 0px;
-  background-color: rgb(12, 109, 189);
+  /* background-color: rgb(12, 109, 189); */
 }
 .addNote {
   text-align: end;
   margin-right: 2rem;
+  margin-top: 1rem;
 }
 
 .icon {
-  font-size: 2.5rem;
-  color: rgb(214, 201, 14);
+  font-size: 1.6rem;
+  /* color: rgb(214, 201, 14); */
+}
+
+.noteBox {
+  float: left;
+  margin: 1rem 2rem;
+  width: 400px;
+  background-color: bisque;
+  height: 30vh;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 1rem;
+}
+.noteBtn {
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+.edit {
+  margin-right: 0.5rem;
+  background-color: rgb(24, 143, 8);
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.edit:hover {
+  background-color: white;
+  color: rgb(24, 143, 8);
+}
+.delete {
+  background-color: rgb(252, 64, 64);
+  color: white;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.delete:hover {
+  background-color: white;
+  color: rgb(252, 64, 64);
+}
+.noteText {
+  width: 100%;
+  height: 74%;
+}
+.noteBox textarea {
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  margin: 0 auto;
+  resize: none;
+  width: 100%;
+  height: 78.5%;
+  background: none;
+  outline: none;
+  font-size: 1.2rem;
+}
+.main {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 78.5%;
+  line-height: 1.5;
+  font-size: 1rem;
+  overflow: none;
+}
+.hidden {
+  display: none;
 }
